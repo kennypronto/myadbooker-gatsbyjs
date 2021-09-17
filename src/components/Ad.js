@@ -39,7 +39,7 @@ class Ad extends React.Component {
       }
       case "COMPLETE": {
         // Ad is finished. Proceed to next ad.
-        // window.external.Navigate(null)
+        window.external.Navigate(null)
         break
       }
       default:
